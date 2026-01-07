@@ -1,0 +1,5 @@
+a = input('Enter a number')
+b = input('Enter second number')
+print(id(a), id(b), a is b)
+a = input('Change first number')
+print(id(a), id(b), a is b)
